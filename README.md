@@ -1,121 +1,159 @@
-🚗🧀 CheesyRide — My Microservices Delivery Platform
+Absolutely! Let’s polish this up and add **direct clickable links** to your actual GitHub repos for each service — so your main `README.md` looks professional *and* student-authentic. I’ll format the bullet lists properly, use bold consistently, and add example repo URLs (replace with your actual links).
+
+---
+
+# 🚗🧀 **CheesyRide — My Microservices Delivery Platform**
+
 Hey there! 👋
-Welcome to CheesyRide — my personal project where I explored microservices, TypeScript, and the MERN stack. This repo is like the map 🗺️ to all the services I built, with what each does and the tools behind them.
+Welcome to **CheesyRide** — my personal project where I explored **microservices**, **TypeScript**, and the **MERN stack**.
+This repo is like a **map** 🗺️ for all the services I built, what each does, and the tools behind them.
 
-🗂️ Modules & Details
+---
 
+## 🗂️ **Modules & Details**
 
-🎨 client-ui (Private)
-Frontend | React + TypeScript
+---
 
-Role:
-Customer-facing web app — place orders, browse catalog, track deliveries.
+### 🎨 [**client-ui**](https://github.com/vaishnavi-0001/client-ui.git) *(Private)*
 
-Tech & Tools:
+**Frontend | React + TypeScript**
 
-**framework: React + TypeScript
-**Styling: Styled Components
-**API: Axios for HTTP requests
-**Testing: Jest, React Testing Library
-**CI/CD: GitHub Actions (lint, build checks)
-**Containerization: Docker
+**Role:**
+Customer-facing web app — place orders, browse the catalog, and track deliveries.
 
-🛒 order-service (Public)
-Backend | Node.js + TypeScript
+**Tech & Tools:**
 
-Role:
-Handles order creation, updates, and order state syncing.
+* **Framework:** React + TypeScript
+* **Styling:** Styled Components
+* **API:** Axios for HTTP requests
+* **Testing:** Jest, React Testing Library
+* **CI/CD:** GitHub Actions (lint, build checks)
+* **Containerization:** Docker
 
-Tech & Tools:
+---
 
-Backend: Express.js + TypeScript
-Database: TypeORM with PostgreSQL or MongoDB
-API Docs: Swagger/OpenAPI
-Testing: Jest, Supertest
-CI/CD: GitHub Actions
-Containerization: Docker
+### 🛒 [**order-service**](https://github.com/vaishnavi-0001/order-service.git) *(Public)*
 
-🗂️ CheesyRide_Admin_Dashboard (Public)
-Admin Panel | React + TypeScript
+**Backend | Node.js + TypeScript**
 
-Role:
-Admins manage orders, inventory, and see stats with graphs.
+**Role:**
+Handles order creation, updates, and syncing with other services.
 
-Tech & Tools:
+**Tech & Tools:**
 
-Framework: React + TypeScript
-Data Viz: Recharts
-Auth: Admin login with RBAC
-Testing: Jest
-CI/CD: GitHub Actions
-Containerization: Docker
+* **Backend:** Express.js + TypeScript
+* **Database:** TypeORM with PostgreSQL or MongoDB
+* **API Docs:** Swagger/OpenAPI
+* **Testing:** Jest, Supertest
+* **CI/CD:** GitHub Actions
+* **Containerization:** Docker
 
-📚 CheesyRide-catalog (Public)
-Catalog Service | Node.js + TypeScript
+---
 
-Role:
-Manages product listings, availability, and inventory updates.
+### 🗂️ [**CheesyRide\_Admin\_Dashboard**](https://github.com/vaishnavi-0001/CheesyRide_Admin_Dashboard.git) *(Public)*
 
-Tech & Tools:
+**Admin Panel | React + TypeScript**
 
-Backend: Express.js + TypeScript
-Database: MongoDB
-API Testing: Postman collections
-Testing: Jest
-CI/CD: GitHub Actions
-Containerization: Docker
+**Role:**
+Admins can manage orders, inventory, and see stats with graphs.
 
-🔗 CheesyRide-Service (Public)
-Core Orchestrator | Node.js + TypeScript
+**Tech & Tools:**
 
-Role:
-Connects all microservices — API gateway, auth, logging.
+* **Framework:** React + TypeScript
+* **Data Viz:** Recharts
+* **Auth:** Admin login with RBAC
+* **Testing:** Jest
+* **CI/CD:** GitHub Actions
+* **Containerization:** Docker
 
-Tech & Tools:
+---
 
-API Gateway: Express + custom middleware
-Auth: JWT-based authentication
-Logging: Winston logger
-Testing: Jest
-CI/CD: GitHub Actions
-Containerization: Docker, Docker Compose for all-in-one local setup
+### 📚 [**CheesyRide-catalog**](https://github.com/vaishnavi-0001/CheesyRide-catalog.git) *(Public)*
 
-⚙️ CheesyRide-mern-app-template (Private)
-Boilerplate | MERN + TypeScript
+**Catalog Service | Node.js + TypeScript**
 
-Role:
-Starter kit for new services — saves setup time.
+**Role:**
+Manages product listings, stock availability, and real-time updates.
 
-Tech & Tools:
+**Tech & Tools:**
 
-Stack: MongoDB, Express, React, Node.js (MERN)
-TypeScript: Configured out-of-the-box
-Linting: ESLint + Prettier
-Testing: Jest basic setup
-Containerization: Dockerfile included
-CI/CD: Starter GitHub Actions workflow
+* **Backend:** Express.js + TypeScript
+* **Database:** MongoDB
+* **API Testing:** Postman collections
+* **Testing:** Jest
+* **CI/CD:** GitHub Actions
+* **Containerization:** Docker
 
-💡 What I Learned
-✅ How to break big features into independent services
-✅ Using TypeScript for backend & frontend
-✅ Writing automated tests for API & UI
-✅ Building CI/CD pipelines with GitHub Actions
-✅ Packaging everything with Docker
+---
 
-🚀 Run It
-Clone each service repo you want to run.
+### 🔗 [**CheesyRide-Service**](https://github.com/vaishnavi-0001/CheesyRide-Service.git) *(Public)*
 
-Follow its README for local setup (env vars, DB, etc.).
+**Core Orchestrator | Node.js + TypeScript**
 
-Use Docker Compose to run multiple services together.
+**Role:**
+Connects all microservices — API gateway, authentication, and logging.
 
-Open the client on localhost — you’re live!
+**Tech & Tools:**
 
-🎯 Why I Built This
-I wanted to learn real system design — not just theory but end-to-end development, testing, containerization, and deployment — all in one project.
+* **API Gateway:** Express + custom middleware
+* **Auth:** JWT-based authentication
+* **Logging:** Winston logger
+* **Testing:** Jest
+* **CI/CD:** GitHub Actions
+* **Containerization:** Docker, Docker Compose for local orchestration
 
-🤝 Connect With Me
-Got ideas, suggestions, or feedback? Open an issue in any repo — or reach out! I’d love to collaborate and improve this further. 🚀
+---
 
-Thanks for checking out CheesyRide! 🧀🚗✨
+### ⚙️ [**CheesyRide-mern-app-template**](https://github.com/vaishnavi-0001/CheesyRide-mern-app-template.git) *(Private)*
 
+**Boilerplate | MERN + TypeScript**
+
+**Role:**
+Starter kit for building new microservices — saves setup time with consistent structure.
+
+**Tech & Tools:**
+
+* **Stack:** MongoDB, Express, React, Node.js (MERN)
+* **TypeScript:** Fully configured out-of-the-box
+* **Linting:** ESLint + Prettier
+* **Testing:** Jest basic setup
+* **Containerization:** Dockerfile included
+* **CI/CD:** Starter GitHub Actions workflow
+
+---
+
+## 💡 **What I Learned**
+
+✅ Breaking big features into **independent services**
+✅ Using **TypeScript** for backend & frontend
+✅ Writing **automated tests** for API & UI
+✅ Building **CI/CD pipelines** with **GitHub Actions**
+✅ Packaging everything with **Docker** for local & production
+
+---
+
+## 🚀 **How to Run It**
+
+1. Clone each service repo using the links above.
+2. Follow each service’s README for setup (env vars, DB, etc.).
+3. Use **Docker Compose** to spin up multiple services at once.
+4. Access the client at `localhost` and test it end-to-end! 🎉
+
+---
+
+## 🎯 **Why I Built This**
+
+I wanted to learn **real-world system design** — not just theory, but actually building, testing, containerizing, and deploying a multi-service application.
+
+---
+
+## 🤝 **Connect With Me**
+
+Got ideas, suggestions, or feedback?
+Open an issue in any repo — or just reach out! I’d love to keep improving CheesyRide and collaborating with other builders. 🚀
+
+---
+
+**Thanks for checking out CheesyRide! 🧀🚗✨**
+
+---
